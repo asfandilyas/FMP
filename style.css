@@ -1,0 +1,659 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+/* background: rgb(224, 207, 211); */
+}
+
+.promotion p{
+    padding-right: 130px;
+    padding-top: 10px;
+    height: 2.5rem;
+    width: 100%;
+    font-family: Courier;
+    font-weight: 200;
+    background-color: rgb(159, 92, 82, 0.5);
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a{
+    margin: auto;
+    padding: auto;
+}
+
+.icons{
+    flex-wrap: wrap;
+    margin-right: 30px;
+    font-size: 28px;
+    font-style: normal;
+}
+
+.icons i:hover{
+    opacity: 0.8;
+}
+
+.navv{
+    margin-top: -10px;
+    margin-left: 390px;
+    flex-wrap: wrap;
+}
+
+.nav-list{
+    display: flex;
+    
+}
+
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn, .nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(58, 56, 56);
+    font-size: 17px;
+    flex-wrap: wrap;
+}
+
+.banner{
+    background-image: url(images/pexels-maria-tyutina-7651722.jpg);
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.banner-text{
+    position: relative;
+    top: 350px;
+    left: 150px;
+    width: 80%;
+}
+
+.h1{
+    font-size: 45px;
+}
+
+.h4{
+    font-size: 25px;
+}
+.banner-button{
+    position: relative;
+    top: 350px;
+    left: 150px;
+    background: rgb(159, 92, 82, 0.5);
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    width: 110px;
+    height: 2.5rem;
+}
+
+.banner-button:hover{
+    opacity:0.8;
+}
+
+.intro{
+    margin: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding: auto;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.box{
+    width: 100%;
+    height: 480px;
+    display: flex;
+}
+
+.box :hover{
+    opacity: 0.4;
+    color: black;
+}
+
+.product1{
+    background-image: url(images/necklace1.jpg);
+    
+}
+
+.product2{ 
+    background-image: url(images/bracelets1.jpg);
+    background-position: center;
+}
+
+.product3{ 
+    background-image: url(images/rings.jpg);
+    background-position: center center ;
+}
+
+.product4{ 
+    background-image: url(images/earrings1.jpg);
+    background-position: center;
+}
+
+.product1, .product2, .product3, .product4{
+    opacity: 0.9;
+    background-size: cover;
+    height: 310px;
+    width: 25%;
+    text-align: center;
+    padding-top: 145px;
+    color: black;
+}
+
+/* .newdiv{
+    display: flex;
+    height: 520px;
+    width: 100%;
+    
+}
+
+.leftcontainer{
+    margin-top: 0px;
+    width: 50%;
+    height: 520px;
+}
+
+.rightcontainer{
+    /* position: relative;
+    left: 700px; */
+    /* text-align: left;
+    width: 30%;
+    height: 520px;
+} */ 
+
+.newcontainer{
+    width: 90%;
+    height: 280px;
+    display: flex;
+   margin-top: -20px;
+   justify-content: center;
+   margin-bottom: 400px;
+}
+
+.leftbox{
+    width: 50%;
+    height: 250px;
+    margin-left: 300px;
+    padding-right: -40px;
+}
+
+.rightbox{
+    margin-left: -220px;
+    padding-top: 180px;
+    width: 50%;
+}
+
+.rightbox p{
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+.rightbox button{
+    background: rgb(159, 92, 82, 0.5);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    /* letter-spacing: 0.5px; */
+    width: 200px;
+    height: 2.5rem;
+}
+
+.rightbox button:hover{
+    opacity:0.8;
+}
+
+.newboxx{
+    display: flex;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0.95;
+}
+
+.leftdiv{
+    padding-right: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.rightdiv{
+    padding-left: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.newboxx h5{
+    padding-top: 20px;    
+}
+
+.newboxx p{
+    color: rgb(31, 30, 30);
+}
+
+.newboxx button{
+    background-color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-width: 1px;
+    width: 200px ;
+    height: 2rem;
+}
+
+.newboxx button:hover{
+    opacity: 0.8;
+}
+
+.bacr{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    letter-spacing: 1px;
+    
+   }
+
+.fourthbox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.pro1, .pro2,.pro3, .pro4{
+    width: 19%;
+    padding-left: 40px;
+}
+
+.pro1 img:hover, .pro2 img:hover,.pro3 img:hover, .pro4 img:hover{
+    opacity: 0.8;
+}
+
+.pro1 h5, .pro2 h5,.pro3 h5, .pro4 h5{
+    font-size: 18px;
+}
+
+.pro1 h5:hover, .pro2 h5:hover,.pro3 h5:hover, .pro4 h5:hover{
+    text-decoration: underline;
+}
+
+.pro1 p, .pro2 p,.pro3 p, .pro4 p{
+    font-size: 16px;
+}
+
+/* .butn{
+    margin-top: 120px;
+    justify-content: center;
+    width: 100%;
+} */
+
+/* .btnnn{
+    margin-top: 80px;
+    justify-content: center;
+    width: 100%;
+} */
+
+.Vview{
+    margin-top: 60px;
+    margin-left: 700px;
+    width: 100px;
+    height: 2.5rem;
+    background: rgb(159, 92, 82, 0.5);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.Vview:hover{
+    opacity: 0.8;
+
+}
+
+.downbanner{
+    margin-top: 120px;
+    background-image: url(images/ban2.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: left;
+}
+
+
+
+.downbanner h1{ 
+    text-align: center;
+    padding-top: 210px;
+    width: 100%;
+    font-size: 45px;
+
+}
+
+.downbanner button{
+    position: relative;
+    left: 660px;
+    background: rgb(159, 92, 82 );
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    width: 140px;
+    height: 3rem;
+}
+
+.downbanner button:hover{
+    opacity: 0.8;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(209, 182, 178, 0.5);
+    color: black;
+    justify-content: center;
+}
+
+.leftside{
+    width: 40%;
+    margin-top: 60px;
+    padding-left: -30px;
+    opacity: 0.8;
+}
+
+.leftside a{
+    color: black;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.leftside a:hover{
+    opacity: 0.8;
+}
+
+.rightside{
+    width: 40%;
+    margin-top: 60px;
+    opacity: 0.8;
+}
+
+.rightside input{
+    width: 400px;
+    height: 3rem;
+    border-color: black black black black;
+    border-width: 1px;
+    padding-left: 15px; 
+}
+
+.rightside input::after{
+    border-width: 3px;
+}
+
+.rightside button{
+    width: 140px;
+    height: 3rem;
+    margin-left: -5px;
+    background-color: rgb(159, 92, 82, 0.8);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.rightside button:hover{
+    opacity: 0.8;
+}
+
+.sociallinks{
+    padding-left: 140px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(209, 182, 178, 0.5);
+    color: black;
+   
+}
+
+.sociallinks p{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.hr{
+    margin: -0px;
+}
+
+.fa-brands{ 
+    padding-top: 20px;
+   padding-left: 15px;
+   font-size: 25px;
+   color: black;
+}
+
+.fa-brands:hover{
+    opacity: 0.6;
+}
+  
+
+
+
+
+
+
+                                    /* RINGS>HTML */
+
+
+.headi{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 650px;
+    margin-bottom: 50px;
+}
+
+.filters{
+    height: 30px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.filters p{
+         margin-top: 12px;
+}
+.hrr{
+    margin-bottom: 10px;
+}
+
+
+.prods{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.prod1, .prod2,.prod3, .prod4{
+    width: 20%;
+    padding-left: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.prod1 img:hover, .prod2 img:hover,.prod3 img:hover, .prod4 img:hover{
+    opacity: 0.8;
+}
+
+.prod1 h5, .prod2 h5,.prod3 h5, .prod4 h5{
+    font-size: 18px;
+}
+
+.prod1 h5:hover, .prod2 h5:hover,.prod3 h5:hover, .prod4 h5:hover{
+    text-decoration: underline;
+}
+
+.prod1 p, .prod2 p,.prod3 p, .prod4 p{
+    font-size: 16px;
+}
+
+.load{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+.load button{
+    width: 60px;
+    height: 2rem;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    border-width: 2px;
+    background-color: rgb(159, 92, 82,0.6 );
+}
+
+.load button:hover{
+    opacity: 0.5;
+}
+
+.load p {
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+.headin{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+
+.subss{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 630px;
+    margin-bottom: 50px;
+}
+
+.subssp{
+    text-align: center;
+    margin-left: -100px;
+    margin-bottom: 40px;
+}
+    
+.sub-form{
+   text-align: center;
+   margin-left: -100px;
+
+}
+
+.label{
+    margin-left: -280px;
+    padding-bottom: 6px;
+    color: black;
+    
+}
+
+.labell{
+    margin-left: -250px;
+    padding-bottom: 6px;
+}
+
+.sub-form input{
+    height: 2.5rem;
+}
+
+.sub-form button{
+    height: 2rem;
+    width: 120px;
+    background-color: rgb(159, 92, 82, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.sub-form button:hover{
+    opacity: 0.8;
+
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    width: 74%;
+}
+
+.ab-para{
+    text-align: left;
+    width: 60%;
+    margin-left: 270px;
+
+    
+}
+
+.ab-img{
+    padding-left: 10px;
+    height: 548px;
+    /* margin-left: -400; */
+}
+
+.abb{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 620px;
+    margin-bottom: 50px;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+  
+    .promotion{
+        justify-content: center;
+       width: 100% ;
+       display: flex;
+    }
+
+    .navv{
+        
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .dropdown-menu{
+        display: none;
+        position: relative;
+        left: 40px;
+        width: 100%;
+       
+        
+    }
+
+    .dropdown-item{
+        display: contents;
+    }
+} */
+
+
+
+
+
+
+   
+
